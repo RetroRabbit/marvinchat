@@ -15,5 +15,5 @@
   "license": "Botpress Proprietary License",
   "engines": {
     "node": "6.10.1"
-  },
+  }
 }
