@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RetroRabbit/marvinchat#readme",
   "dependencies": {
+    "botpress": "^0.2.3",
     "botpress-slack": "^1.0.21"
   }
 }
