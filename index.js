@@ -10,6 +10,8 @@ module.exports = function(bp) {
   }) 
 
   bp.hear({ platform: 'slack', text:'Who are you?'}, event => {
-    bp.slack.sendReaction('I am Marvin, the Retro Rabbit', { channel: event.channel.id, timestamp: event.ts })
+    bp.slack.sendText('I am Marvin, the Retro Rabbit', { channel: event.channel.id, timestamp: event.ts })
   }) 
+
+  bp.wit.reinitializeClient()
 }
