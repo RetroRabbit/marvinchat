@@ -1,0 +1,22 @@
+{
+  "name": "marvinchat",
+  "version": "1.0.0",
+  "description": "Personified Marvin the rabbit",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RetroRabbit/marvinchat.git"
+  },
+  "keywords": [
+    "marvin"
+  ],
+  "author": "Jade & Herman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RetroRabbit/marvinchat/issues"
+  },
+  "homepage": "https://github.com/RetroRabbit/marvinchat#readme"
+}
