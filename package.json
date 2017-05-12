@@ -12,5 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jade & Herman",
-  "license": "Botpress Proprietary License"
+  "license": "Botpress Proprietary License",
+  "engines": {
+    "node": "6.10.1"
+  },
 }
