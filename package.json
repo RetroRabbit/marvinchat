@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RetroRabbit/marvinchat/issues"
   },
-  "homepage": "https://github.com/RetroRabbit/marvinchat#readme"
+  "homepage": "https://github.com/RetroRabbit/marvinchat#readme",
+  "dependencies": {
+    "botpress-slack": "^1.0.21"
+  }
 }
