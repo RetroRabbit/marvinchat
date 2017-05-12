@@ -1,26 +1,16 @@
 {
-  "name": "marvinchat",
-  "version": "1.0.0",
-  "description": "Personified Marvin the rabbit",
+  "name": "marvin",
+  "version": "0.0.1",
+  "description": "Personifying Marvin the Retro Rabbit ",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RetroRabbit/marvinchat.git"
-  },
-  "keywords": [
-    "marvin"
-  ],
-  "author": "Jade & Herman",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/RetroRabbit/marvinchat/issues"
-  },
-  "homepage": "https://github.com/RetroRabbit/marvinchat#readme",
   "dependencies": {
-    "botpress": "^0.2.3",
+    "botpress": "0.x",
     "botpress-slack": "^1.0.21"
-  }
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jade & Herman",
+  "license": "Botpress Proprietary License"
 }
